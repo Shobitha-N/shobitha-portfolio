@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <img src="images/avatar.png" alt="Working Woman Avatar" class="avatar">
+      <h1>Hello, I'm <span class="highlight">Shobitha</span></h1>
+      <h2><span id="typewriter"></span></h2>
+    </div>
+<!-- Corner Icons -->
+    <div class="corner-icon top-left" onclick="scrollToSection('experience')">
+      <i class="fas fa-briefcase"></i>
+      <span>Experience</span>
+    </div>
+    <div class="corner-icon top-right" onclick="scrollToSection('skills')">
+      <i class="fas fa-lightbulb"></i>
+      <span>Skills</span>
+    </div>
+    <div class="corner-icon bottom-left" onclick="scrollToSection('projects')">
+      <i class="fas fa-code"></i>
+      <span>Projects</span>
+    </div>
+    <div class="corner-icon bottom-right" onclick="scrollToSection('contact')">
+      <i class="fas fa-envelope"></i>
+      <span>Contact</span>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-circle">HTML</div>
+      <div class="skill-circle">CSS</div>
+      <div class="skill-circle">JavaScript</div>
+      <div class="skill-circle">React</div>
+     <div class="skill-circle">Node.js</div>
+      <div class="skill-circle">Python</div>
+      <div class="skill-circle">Excel</div>
+      <div class="skill-circle">PowerBI</div>
+      <div class="skill-circle">Data Analysis</div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+<section id="experience" class="experience-section">
+  <h2>Experience</h2>
+  <div class="timeline">
+    
+    <div class="timeline-item">
+      <div class="timeline-icon">💼</div>
+      <div class="timeline-content">
+        <h3>Quality Analyst Intern</h3>
+        <p>Appli (Appt Innovation Labs Pvt. Ltd.)</p>
+        <span class="date">April 2025</span>
+        <ul>
+          <li>Tested mobile & web apps for bugs, UI/UX issues, and performance.</li>
+          <li>Verified functionality of the admin dashboard for college listings and updates.</li>
+          <li>Conducted cross-browser and cross-device testing using BrowserStack.</li>
+          <li>Logged defects and tracked them using JIRA / Trello (if applicable).</li>
+          <li>Ensured quality standards were met before updates/releases.</li>
+          <li>Collaborated with the development team to ensure smooth deployment of features.</li>
+        </ul>
+      </div>
+    </div>
+
+    
+
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>AI Powered Food Ordering System 🍔</h3>
+      <p>AI-powered food delivery web app with voice assistant & personalized recommendations.</p>
+      <a href="https://github.com/Shobitha-N/AI-Powered-Food-Delivery-App" target="_blank" class="btn">View on GitHub</a>
+    </div>
+    <div class="project-card">
+  <h3>Envio Resort Website 🌴</h3>
+  <p>A fully responsive resort website showcasing rooms, amenities, bookings, and special offers with a clean and modern design.</p>
+  <a href="https://github.com/Shobitha-N/Envio-Resort" target="_blank" class="btn">View on GitHub</a>
+</div>
+
+    <div class="project-card">
+      <h3>OCD Car Wash 🚗</h3>
+      <p>Car wash booking system with dark/light mode, signup/login, and smooth UI.</p>
+      <a href="https://github.com/Shobitha-N/OCD" target="_blank" class="btn">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/shobitha2003"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Shobitha-N"><i class="fab fa-github"></i></a>
+      
+      <a href="mailto:shobitha.learn@gmail.com">
+  <i class="fas fa-envelope"></i>
+</a>
+
+    </div>
+  </section>
+
+  <!-- Home Button -->
+  <button id="homeBtn" onclick="scrollToSection('hero')">
+    <i class="fas fa-home"></i>
+  </button>
+</body>
+</html>
+

@@ -8,8 +8,7 @@ It is built using **HTML, CSS, and JavaScript** and designed to be simple, clean
 ## 🚀 Demo
 👉 [Live Demo](https://elegant-cannoli-d88e62.netlify.app/)  
 
-*(Replace the link with your actual GitHub Pages/Netlify/Vercel deployment link.)*
+
 
 ---
 
-## 📂 Project Structure
